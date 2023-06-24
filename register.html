@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊</title>
+</head>
+<body>
+    <form action="register.php" method="POST">
+        <fieldset>
+            <legend>註冊</legend>
+            <label for="username">使用者名稱：</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="phone">電話號碼：</label>
+            <input type="text" id="phone" name="phone" required><br><br>
+            <label for="custom1">客製欄位1：</label>
+            <input type="text" id="custom1" name="custom1" required><br><br>
+            <label for="custom2">客製欄位2：</label>
+            <input type="text" id="custom2" name="custom2" required><br><br>
+                <label for="password">密碼：</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <label for="confirmPassword">密碼確認：</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+            <input type="submit" value="註冊">
+        </fieldset>
+    </form>
+    已經有帳號？ <a href="./login.html">登入</a>
+</body>
+</html>
